@@ -2,7 +2,7 @@ import Taro, { Component } from '@tarojs/taro'
 import { AtTabBar } from 'taro-ui'
 import { View } from '@tarojs/components'
 import RequestMessage from 'src/components/RequestMessage'
-import { connect } from '@tarojs/redux'
+import { connect } from 'react-redux'
 import { getCurrentPageIndex, getCurrentPageUrl } from 'src/utils/common'
 import { router } from 'src/utils/router'
 
