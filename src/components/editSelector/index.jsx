@@ -1,4 +1,5 @@
-import Taro, { Component } from '@tarojs/taro'
+import React, { Component } from 'react'
+
 import { View, Picker } from '@tarojs/components'
 import styles from './index.module.less'
 

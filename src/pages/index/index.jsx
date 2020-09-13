@@ -1,6 +1,7 @@
-import Taro, { Component } from '@tarojs/taro'
+import React, { Component } from 'react'
+
 import { View, Navigator } from '@tarojs/components'
-import { connect } from '@tarojs/redux'
+import { connect } from 'react-redux'
 import BasicPage from 'src/containers/BasicPage'
 import { router } from 'src/utils/router'
 

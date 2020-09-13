@@ -28,6 +28,7 @@
 		"@tarojs/async-await": "1.3.42",
 		"@tarojs/components": "3.0.8",
 		"@tarojs/mini-runner": "3.0.8",
+		"@tarojs/plugin-mock": "0.0.6",
 		"@tarojs/redux": "1.3.42",
 		"@tarojs/redux-h5": "1.3.42",
 		"@tarojs/router": "3.0.8",

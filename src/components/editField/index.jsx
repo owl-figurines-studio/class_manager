@@ -1,4 +1,5 @@
-import Taro, { Component } from '@tarojs/taro'
+import React, { Component } from 'react'
+
 import { View } from '@tarojs/components'
 import { AtInput } from 'taro-ui'
 import styles from './index.module.less'

@@ -1,4 +1,5 @@
-import Taro, { Component } from '@tarojs/taro'
+import React, { Component } from 'react'
+import Taro from '@tarojs/taro'
 import { View, Button, Camera, Image, Text } from '@tarojs/components'
 import './index.less'
 

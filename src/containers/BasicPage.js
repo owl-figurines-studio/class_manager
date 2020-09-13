@@ -1,4 +1,5 @@
-import Taro, { Component } from '@tarojs/taro'
+import React, { Component } from 'react'
+import Taro from '@tarojs/taro'
 import { AtTabBar } from 'taro-ui'
 import { View } from '@tarojs/components'
 import RequestMessage from 'src/components/RequestMessage'

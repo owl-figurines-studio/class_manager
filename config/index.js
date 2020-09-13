@@ -15,7 +15,9 @@ const config = {
   alias: {
     'src': path.resolve(__dirname, '..', 'src'),
   },
-  plugins: [],
+  plugins: [
+    '@tarojs/plugin-mock',
+  ],
   babel: {
     sourceMap: true,
     presets: [

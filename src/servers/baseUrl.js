@@ -1,6 +1,7 @@
 const getBaseUrl = url => {
-  let BASE_URL = 'http://39.107.238.66:5000/api';
-  const gralphql_URL = 'http://39.107.238.66:5000/'
+  // let BASE_URL = 'http://39.107.238.66:5000/api';
+  let BASE_URL = 'http://127.0.0.1:9527/api';
+  const gralphql_URL = 'http://127.0.0.1:9527/'
   if (url.includes('graphql')){
     BASE_URL = gralphql_URL
   }
