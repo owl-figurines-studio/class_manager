@@ -47,21 +47,21 @@ class BasicPage extends Component {
     if (!Taro.getStorageSync('RX-178')) {
       this.login()
     }
-    if (userPhone && !patientInfo) {
-      this.queryPatient({ telecom: userPhone })
-    }
+    // if (userPhone && !patientInfo) {
+    //   this.queryPatient({ telecom: userPhone })
+    // }
   }
 
-  queryPatient = arg => {
-    const { dispatch } = this.props
-    dispatch({
-      type: 'user/queryPatient',
-      payload: {
-        arg,
-        fields: ['id', 'name', 'gender', 'birthDate', 'telecom'],
-      },
-    })
-  }
+  // queryPatient = arg => {
+  //   const { dispatch } = this.props
+  //   dispatch({
+  //     type: 'user/queryPatient',
+  //     payload: {
+  //       arg,
+  //       fields: ['id', 'name', 'gender', 'birthDate', 'telecom'],
+  //     },
+  //   })
+  // }
 
 
   login = async () => {
